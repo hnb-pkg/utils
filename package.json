@@ -5,6 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "ci": "npm run build",
+    "test": "echo \"Error: no test specified\"",
     "build": "tsc"
   },
   "repository": {
