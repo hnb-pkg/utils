@@ -1,0 +1,21 @@
+{
+  "name": "@hnb-pkg/utils",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnb-pkg/utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hnb-pkg/utils/issues"
+  },
+  "homepage": "https://github.com/hnb-pkg/utils#readme",
+  "description": "",
+  "files": ["dist"]
+}
