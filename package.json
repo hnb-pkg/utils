@@ -1,10 +1,9 @@
 {
-  "name": "@hnb-pkg/utils",
+  "name": "@hnb-pkg/myutils",
   "type": "module",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-  },
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hnb-pkg/utils.git"
@@ -17,5 +16,7 @@
   },
   "homepage": "https://github.com/hnb-pkg/utils#readme",
   "description": "",
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
