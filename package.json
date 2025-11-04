@@ -3,7 +3,10 @@
   "type": "module",
   "version": "1.0.1",
   "main": "./dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "ci": "npm run build",
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hnb-pkg/utils.git"
@@ -18,5 +21,8 @@
   "description": "",
   "files": [
     "dist"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
