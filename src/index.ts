@@ -1,5 +1,3 @@
-console.log("Hello, This is a Test")
-
 export async function mapAsync<K, T = any>(list: T[], func: (list: T, index: number) => K | Promise<K>, thisArg?: any) {
     return await Promise.all(list.map(func, thisArg));
 }
