@@ -1,7 +1,7 @@
 {
   "name": "@hnb-pkg/myutils",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./dist/cjs/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
