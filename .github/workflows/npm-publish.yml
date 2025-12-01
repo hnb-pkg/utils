@@ -39,6 +39,6 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build
-      - run: pnpm publish  # 使用 pnpm 发布
+      - run: pnpm publish --no-git-checks  # 使用 pnpm 发布
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
